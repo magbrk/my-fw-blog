@@ -27,7 +27,10 @@ SECRET_KEY = 'hd+!um!5k8c!kkg@af)il^1$)))@a5!38r--r@6eb7rl@e2vht'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'magbrk.pythonanywhere.com',
+    '127.0.0.1',
+]
 
 
 # Application definition
